@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
   <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
-  <script type="text/javascript" src="/Minigames/Demo/phaserdemo.js"></script>
+  <script type="text/javascript" src="/hscoburgminigames/Minigames/Demo/phaserdemo.js"></script>
 </head>
 
 <body>
@@ -18,10 +18,10 @@
 
 		<div id="navigation">
 			<ul>
-				<li><a href="/">Hauptseite</a></li>
-				<li><a href="/games">Spiele</a></li>
-				<li><a href="/firstgame">Demo</a></li>
-				<li><a href="/about">Über Uns</a></li>
+				<li><a href="/hscoburgminigames/index">Hauptseite</a></li>
+				<li><a href="/hscoburgminigames/games">Spiele</a></li>
+				<li><a href="/hscoburgminigames/demo">Demo</a></li>
+				<li><a href="/hscoburgminigames/about">Über Uns</a></li>
 			</ul>
 		</div>
 
