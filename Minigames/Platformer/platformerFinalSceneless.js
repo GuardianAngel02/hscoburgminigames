@@ -1,7 +1,5 @@
 function StartPlatformerSceneless(){
 
-  import Phaser from '/hscoburgminigames/phaser';
-  import Phaser from 'phaser';
   
   var config = {
       type: Phaser.AUTO,
