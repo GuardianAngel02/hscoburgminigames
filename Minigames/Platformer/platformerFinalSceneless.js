@@ -57,7 +57,7 @@ function StartPlatformerSceneless(){
       this.load.audio('jump', '/hscoburgminigames/Minigames/Platformer/sounds/appear-online.ogg');
       this.load.audio('boom', '/hscoburgminigames/Minigames/Platformer/sounds/bomb_explosion.ogg');
       this.load.audio('levelup', '/hscoburgminigames/Minigames/Platformer/sounds/levelup.ogg');
-      this.load.audio('coin', '//hscoburgminigamesMinigames/Platformer/sounds/Coin.ogg');
+      this.load.audio('coin', '/hscoburgminigames/Minigames/Platformer/sounds/Coin.ogg');
 
       this.load.audio('music', '/hscoburgminigames/Minigames/Platformer/sounds/Circus.mp3');
   }
