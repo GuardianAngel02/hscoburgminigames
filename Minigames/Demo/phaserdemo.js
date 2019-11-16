@@ -20,11 +20,11 @@ function StartDemo(){
 
   function preload ()
   {
-      this.load.setBaseURL('http://labs.phaser.io');
+//      this.load.setBaseURL('http://labs.phaser.io');
 
-      this.load.image('sky', 'assets/skies/space3.png');
-      this.load.image('logo', 'assets/sprites/phaser3-logo.png');
-      this.load.image('red', 'assets/particles/red.png');
+      this.load.image('sky', '/hscoburgminigames/images/space3.png');
+      this.load.image('logo', '/hscoburgminigames/images/phaser3-logo.png');
+      this.load.image('red', '/hscoburgminigames/images/red.png');
   }
 
   function create ()
