@@ -22,9 +22,9 @@ function StartDemo(){
   {
 //      this.load.setBaseURL('http://labs.phaser.io');
 
-      this.load.image('sky', '/hscoburgminigames/images/space3.png');
-      this.load.image('logo', '/hscoburgminigames/images/phaser3-logo.png');
-      this.load.image('red', '/hscoburgminigames/images/red.png');
+      this.load.image('sky', '/hscoburgminigames/Minigames/Demo/images/space3.png');
+      this.load.image('logo', '/hscoburgminigames/Minigames/Demo/images/phaser3-logo.png');
+      this.load.image('red', '/hscoburgminigames/Minigames/Demo/images/red.png');
   }
 
   function create ()
