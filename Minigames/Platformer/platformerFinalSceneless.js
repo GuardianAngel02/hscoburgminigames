@@ -54,10 +54,10 @@ function StartPlatformerSceneless(){
       this.load.image('bomb', '/hscoburgminigames/Minigames/Platformer/images/bomb.png');
       this.load.spritesheet('dude', '/hscoburgminigames/Minigames/Platformer/images/dude2.png', { frameWidth: 32, frameHeight: 42 });
 
-      this.load.audio('jump', '/hscoburgminigames/Minigames/Platformer/sounds/appear-online.ogg');
-      this.load.audio('boom', '/hscoburgminigames/Minigames/Platformer/sounds/bomb_explosion.ogg');
-      this.load.audio('levelup', '/hscoburgminigames/Minigames/Platformer/sounds/levelup.ogg');
-      this.load.audio('coin', '/hscoburgminigames/Minigames/Platformer/sounds/Coin.ogg');
+      this.load.audio('jump', ['/hscoburgminigames/Minigames/Platformer/sounds/appear-online.ogg', '/hscoburgminigames/Minigames/Platformer/sounds/appear-online.mp3']);
+      this.load.audio('boom', ['/hscoburgminigames/Minigames/Platformer/sounds/bomb_explosion.ogg', '/hscoburgminigames/Minigames/Platformer/sounds/bomb_explosion.mp3']);
+      this.load.audio('levelup', ['/hscoburgminigames/Minigames/Platformer/sounds/levelup.ogg', '/hscoburgminigames/Minigames/Platformer/sounds/levelup.mp3']);
+      this.load.audio('coin', ['/hscoburgminigames/Minigames/Platformer/sounds/Coin.ogg', '/hscoburgminigames/Minigames/Platformer/sounds/Coin.mp3']);
 
       this.load.audio('music', '/hscoburgminigames/Minigames/Platformer/sounds/Circus.mp3');
   }
